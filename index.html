@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-xs-6 col-xs-offset-3">
+            <div class="col-xs-6">
                 <form>
                     <div class="form-group">
                         <h1>Enter your horoscope sign</h1>
@@ -23,11 +23,11 @@
                         <button type="button" onclick="horoscope()" class="btn btn-primary btn-lg">click me</button>
                     </div>
                 </form>
-                <div>
-                    <h1 id="yourSign"></h1><img id="icon" src>
-                </div>
-                <div id="yourHoroscope"></div>
             </div>
+            <div class="col-xs-5 col-xs-offset-1">
+                <h1 id="yourSign"></h1><a id="refer" href target="_blank"><img id="icon" src></a>
+            </div>
+            <div id="yourHoroscope"></div>
         </div>
     </div>
 
